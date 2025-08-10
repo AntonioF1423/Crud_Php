@@ -25,7 +25,7 @@ if (!empty($_POST["btneditar"])) {
                 $editar=$conexion->query("update img set foto= '$ruta' where id_img=$id");
 
                 if ($editar==1) {
-                     echo "<div class=alert alert-success>Correcto, la imagen se ha subido con exito</div>";
+                     echo "<div class=alert alert-success>Correcto, la imagen se ha subido con éxito</div>";
                 } else {
                      echo "<div class=alert alert-danger>Error al editar la imagen</div>";
                 }
